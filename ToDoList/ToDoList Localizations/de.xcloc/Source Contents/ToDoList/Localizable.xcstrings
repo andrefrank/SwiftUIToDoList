@@ -1,0 +1,60 @@
+{
+  "sourceLanguage" : "de",
+  "strings" : {
+    "" : {
+
+    },
+    "Alle" : {
+
+    },
+    "Aufgabe" : {
+
+    },
+    "Aufgabenbeschreibung eingeben" : {
+
+    },
+    "Aufgabenliste" : {
+
+    },
+    "Detail" : {
+
+    },
+    "Erinnerung" : {
+
+    },
+    "Hallo" : {
+
+    },
+    "Hoch" : {
+
+    },
+    "Mit + neue Aufgabe anlegen..." : {
+
+    },
+    "Neue Aufgabe eingeben" : {
+
+    },
+    "Niedrig" : {
+
+    },
+    "Normal" : {
+
+    },
+    "Notiz" : {
+
+    },
+    "Offen" : {
+
+    },
+    "Priorität" : {
+
+    },
+    "Save" : {
+
+    },
+    "Speichern" : {
+
+    }
+  },
+  "version" : "1.0"
+}

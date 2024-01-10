@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ToDoList/Localizable.xcstrings" source-language="de" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.1" build-num="15C5028h"/>
+    </header>
+    <body>
+      <trans-unit id="" xml:space="preserve">
+        <source/>
+        <target state="new"/>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Alle" xml:space="preserve">
+        <source>Alle</source>
+        <target state="new">Alle</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Aufgabe" xml:space="preserve">
+        <source>Aufgabe</source>
+        <target state="new">Aufgabe</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Aufgabenbeschreibung eingeben" xml:space="preserve">
+        <source>Aufgabenbeschreibung eingeben</source>
+        <target state="new">Aufgabenbeschreibung eingeben</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Aufgabenliste" xml:space="preserve">
+        <source>Aufgabenliste</source>
+        <target state="new">Aufgabenliste</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Detail" xml:space="preserve">
+        <source>Detail</source>
+        <target state="new">Detail</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Erinnerung" xml:space="preserve">
+        <source>Erinnerung</source>
+        <target state="new">Erinnerung</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hallo" xml:space="preserve">
+        <source>Hallo</source>
+        <target state="new">Hallo</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hoch" xml:space="preserve">
+        <source>Hoch</source>
+        <target state="new">Hoch</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mit + neue Aufgabe anlegen..." xml:space="preserve">
+        <source>Mit + neue Aufgabe anlegen...</source>
+        <target state="new">Mit + neue Aufgabe anlegen...</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Neue Aufgabe eingeben" xml:space="preserve">
+        <source>Neue Aufgabe eingeben</source>
+        <target state="new">Neue Aufgabe eingeben</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Niedrig" xml:space="preserve">
+        <source>Niedrig</source>
+        <target state="new">Niedrig</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Normal" xml:space="preserve">
+        <source>Normal</source>
+        <target state="new">Normal</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Notiz" xml:space="preserve">
+        <source>Notiz</source>
+        <target state="new">Notiz</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Offen" xml:space="preserve">
+        <source>Offen</source>
+        <target state="new">Offen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Priorität" xml:space="preserve">
+        <source>Priorität</source>
+        <target state="new">Priorität</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <target state="new">Save</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Speichern" xml:space="preserve">
+        <source>Speichern</source>
+        <target state="new">Speichern</target>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="ToDoList/ToDoList-InfoPlist.xcstrings" source-language="de" target-language="de" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.1" build-num="15C5028h"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>ToDoList</source>
+        <target state="new">ToDoList</target>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
