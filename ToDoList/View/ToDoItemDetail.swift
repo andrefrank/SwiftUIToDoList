@@ -106,7 +106,6 @@ struct ToDoItemDetail : View {
             }
             
         })
-        
     }
 }
 

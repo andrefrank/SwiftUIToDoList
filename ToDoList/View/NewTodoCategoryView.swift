@@ -99,9 +99,10 @@ struct NewTodoCategoryView: View {
         .padding()
         .background(Color.white)
         .cornerRadius(10, antialiased: true)
-        .offset(y: isEditing ? -320 : 0)
+        //.offset(y: isEditing ? -320 : 0)
         
       }
+        
        // .edgesIgnoringSafeArea(.bottom)
     }
        

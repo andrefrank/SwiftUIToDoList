@@ -21,10 +21,14 @@ struct ToDoListRow: View {
                 HStack {
                     todoNameView
                     Spacer()
-                #if DEBUG
-                    nextDateAndScheduleFlagView
-                    Spacer()
-                #endif
+                    
+                    if let categoryName = todoItem.category?.category.rawValue {
+                        Text(categoryName)
+                            .font(.system(size: 13))
+                            .bold()
+                            .frame(width: 100,alignment: .leading)
+                    }
+                    
                     priorityLabelView
                 }
                 
@@ -73,7 +77,7 @@ extension ToDoListRow {
             Text(formattedDate(todoItem.scheduledDate ?? Date()))
                 .font(.system(size: 12,design: .rounded))
             Image(systemName: "alarm.waves.left.and.right")
-                .foregroundStyle((todoItem.scheduledDate ?? Date()) >= Date() ? .black : Color(.systemRed))
+                .foregroundStyle((todoItem.scheduledDate ?? Date()) >= Date() ? .primary : Color(.systemRed))
         }
         .opacity(todoItem.scheduledDate != nil ? 1 : 0)
     }
@@ -99,6 +103,7 @@ extension ToDoListRow {
     var completionTimeLabelView: some View {
         Text(formattedEstimateCompletionTime(todoItem.estimateTimeToComplete))
             .font(.system(size: 12,design: .rounded))
+            .frame(width:100,alignment: .leading)
     }
     
     @ViewBuilder var nextDateAndScheduleFlagView: some View {
@@ -135,9 +140,15 @@ extension ToDoListRow {
         //Task is completed, so stop time calculation
         if isEnabled {
             todoItem.isActive = false
+            
+            //Remove scheduled and pending notfications
+            if let _=todoItem.scheduledDate {
+                NotificationManager.shared.removeNotificationMessage(todoItem.id.uuidString)
+            }
+            
             todoItem.scheduledDate = nil
             appData.recentTodoItem = nil
-           // updateTime(todoItem: todoItem, isEnabled: false)
+            
         }
     }
     

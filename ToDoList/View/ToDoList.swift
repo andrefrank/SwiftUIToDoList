@@ -13,7 +13,8 @@ struct ToDoList: View {
     
     @EnvironmentObject var appData:AppData
     
-    @FetchRequest(entity: ToDoItem.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \ToDoItem.priorityNum, ascending: true)]) var todoItems:FetchedResults<ToDoItem>
+    //Fetch Request sorted by Priority
+    @FetchRequest(entity: ToDoItem.entity(), sortDescriptors: [NSSortDescriptor(keyPath: \ToDoItem.priorityNum, ascending: false)]) var todoItems:FetchedResults<ToDoItem>
     
     
     @State private var newItemName: String = ""
@@ -80,9 +81,10 @@ struct ToDoList: View {
                         if let oldItem {
                             updateTime(todoItem: oldItem, isEnabled:false)
                         }
+                        
                         if let newItem {
                             updateTime(todoItem: newItem, isEnabled: true)
-                        }
+                        } 
                         
                         setRecent(todoItem: newItem)
                         
@@ -148,7 +150,14 @@ struct ToDoList: View {
     
     func deleteTask(indexSet:IndexSet){
         for index in indexSet {
-                let itemToDelete = todoItems[index]
+            
+            let itemToDelete = todoItems[index]
+            
+            //Remove notifications in pending or scheduled state
+            if let _=itemToDelete.scheduledDate {
+                NotificationManager.shared.removeNotificationMessage(itemToDelete.id.uuidString)
+            }
+                
                 context.delete(itemToDelete)
         }
         
@@ -166,6 +175,7 @@ struct ToDoList: View {
 extension ToDoList {
     private func setRecent(todoItem:ToDoItem?){
         appData.recentTodoItem = todoItem
+       
         if let todoItem {
             todoItem.isActive=true
         }

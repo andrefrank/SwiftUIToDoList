@@ -52,5 +52,85 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "554181A9-121C-430C-9878-DD2E7AEBABB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/View/NewTodoCategoryView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2113BDCB-FE2D-4F22-961B-D17F99801A7E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/View/ToDoList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A32D672-66BF-4F3A-A950-C2DE6F2D26AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ToDoList/View/ToDoList.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "updateTime(todoItem:isEnabled:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1A32D672-66BF-4F3A-A950-C2DE6F2D26AD - 2d3d03a590aa7bd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.ToDoList.updateTime(todoItem: ToDoList.ToDoItem, isEnabled: Swift.Bool) -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrefrank/Downloads/SwiftUIToDoList/ToDoList/View/ToDoList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "1A32D672-66BF-4F3A-A950-C2DE6F2D26AD - 2d3d03a590aa7bd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ToDoList.ToDoList.updateTime(todoItem: ToDoList.ToDoItem, isEnabled: Swift.Bool) -&gt; ()"
+                  moduleName = "ToDoList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andrefrank/Downloads/SwiftUIToDoList/ToDoList/View/ToDoList.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "772">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
